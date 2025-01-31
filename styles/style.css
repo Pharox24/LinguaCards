@@ -1,0 +1,31 @@
+
+:root {
+    --hsk1Col: #F4B546; 
+    --hsk2Col: #387F96;
+    --hsk3Col: #EC6F3B;
+    --hsk4Col: #BC312A;
+    --hsk5Col: #1A3F76;
+    --hsk6Col: #6A3669;
+}
+
+body {
+    background: linear-gradient(to right, var(--hsk1Col), var(--hsk2Col), var(--hsk3Col), var(--hsk4Col), var(--hsk5Col), var(--hsk6Col));
+}
+
+@keyframes gradientAnimation {
+    0% { background: linear-gradient(to right, red, blue); }
+    50% { background: linear-gradient(to right, blue, green); }
+    100% { background: linear-gradient(to right, green, red); }
+  }
+  
+  .animated-gradient {
+    width: 100vw;
+    height: 100vh;
+    animation: gradientAnimation 5s infinite alternate;
+  }
+
+
+
+h1, h2, h3, h4, a {
+    font-family: "Times New Roman";
+}

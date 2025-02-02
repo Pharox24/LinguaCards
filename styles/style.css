@@ -13,7 +13,7 @@ body {
 }
 
 
-.navBarStyel {
+.navBarStyle {
   @apply w-9/10  h-20 text-xl bg-gradient-to-r from-blue-700 via-pink-500 to-red-700 text-white font-bold opacity-80 flex gap-x-5 rounded-full m-5 items-center content-center justify-center;
 }
 

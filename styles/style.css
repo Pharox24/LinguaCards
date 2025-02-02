@@ -9,8 +9,19 @@
 }
 
 body {
-    background: linear-gradient(to right, var(--hsk1Col), var(--hsk2Col), var(--hsk3Col), var(--hsk4Col), var(--hsk5Col), var(--hsk6Col));
+  font-family: "Times New Roman";
 }
+
+
+.navBarStyel {
+  @apply w-9/10  h-20 text-xl bg-gradient-to-r from-blue-700 via-pink-500 to-red-700 text-white font-bold opacity-80 flex gap-x-5 rounded-full m-5 items-center content-center justify-center;
+}
+
+
+/* .gradBgColor { */
+  /* background: linear-gradient(to right, green) */
+  /* background: linear-gradient(to right, var(--hsk1Col), var(--hsk2Col), var(--hsk3Col), var(--hsk4Col), var(--hsk5Col), var(--hsk6Col)); */
+/* } */
 
 @keyframes gradientAnimation {
     0% { background: linear-gradient(to right, red, blue); }
